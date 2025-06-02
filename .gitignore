@@ -1,0 +1,26 @@
+# Ignore raw and processed data
+data_raw/
+data_processed/
+
+# Ignore saved model artifacts and logs
+models/
+results/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore VS Code settings folder (optional)
+.vscode/
+
+# OS‐specific files
+.DS_Store
+Thumbs.db
+
+# Temp/log files
+*.log
+*.tmp

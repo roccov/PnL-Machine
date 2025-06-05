@@ -1,0 +1,23 @@
+Checker comment categoriser les anomalies CZ:
+
+signaldoc.csv 
+-> cat.data collumn
+
+// confirm that's already available period??
+
+------------------------------------
+For compustat il semblerati qu'on a une periode de disponibilité. 
+-> FDATEQ ( according to compustat doccumentation: 
+This item is the date the data is finalized for that year or quarter (UPDCD = 3).)
+-> ACTUAL FILING DATE ( not in the database...) 
+
+----------------------------------------------------------
+Merge compustat and CRSP
+
+-> Linker gvkey (compustat) avec permno (crsp)
+// lnkused or lnkhist??
+// Faire en sorte d'agreger les données pour que ca se fasse en continu? quand je met la strat live
+
+-> handle time index??
+-------------------------------------------------------------
+Comment traiter les données manquantes
